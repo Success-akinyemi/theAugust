@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+
+@layer components {
+  .pad1{
+    @apply px-16 tablet:px-10
+  }
+}
+
+.link {
+  text-decoration: none;
+}
+
+.navLink{
+    color: white;
+    font-weight: 600;
+    transition: all 300ms ease-in ;
+    cursor: pointer;
+    border-bottom:  2px solid transparent;
+}
+
+.navLink:hover{
+  border-bottom:  2px solid white;
+}
+
+.heroImg{
+  color: rgba(0, 0, 0, 0.637);
+}
+
+p{
+  color: #52c505;
+}
+
+.heroBgImg{
+  background: url(./assets/august-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}

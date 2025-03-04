@@ -31,7 +31,7 @@ function Navbar() {
         <div className={`ml-auto flex items-center gap-[62px] phone:hidden `}>
             {
                 menu.map((item, idx) => (
-                    <a key={idx} href={`#${item.name}`} className={`cursor-pointer border-b-[2px] border-b-transparent hover:border-b-white duration-300 text-white`}>
+                    <a key={idx} href={`#${item.name}`} className={`cursor-pointer border-b-[2px] border-b-transparent hover:border-b-white duration-300 text-white text-[17px]`}>
                         {item?.name}
                     </a>
                 ))

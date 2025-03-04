@@ -39,7 +39,7 @@ function Initiatives() {
     <div className="pad1 w-full bg-main-color flex items-center justify-center">
 
         <div className="flex flex-col mt-20 gap-8 mb-20 justify-center items-center w-[65%] tablet:w-[95%]">
-            <h1 className="text-[#FF8F0F] text-[36px] font-extrabold">Our Services</h1>
+            <h1 className="text-[#FF8F0F] text-[36px] font-extrabold">Our Initiatives</h1>
 
             {/**SWIPER */}
             <div className="flex items-center gap-12 mt-8 mb-8 flex-wrap justify-center">

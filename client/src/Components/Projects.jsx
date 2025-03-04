@@ -51,7 +51,9 @@ function Projects() {
             </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_2} alt="slide_image" />
+            <a href="https://avoorigin.netlify.app/" target='_blank'>
+                <img src={slide_image_2} alt="slide_image" />
+            </a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_3} alt="slide_image" />

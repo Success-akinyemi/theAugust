@@ -36,13 +36,10 @@ function About() {
           About the August
         </h1>
         <h2 className="text-white text-[30px] tablet:text-[24px] font-semibold">
-          UI/UX Designer and Project Manager
+          Who we are
         </h2>
         <p className="text-white text-[24px] tablet:text-[18px] font-medium">
-          As a creative problem solver, I’m passionate about crafting good user
-          experiences that delight and inspire. With a strong foundation in
-          design principles and project management, I excel in collaborative
-          environments, driving projects from concept to launch.
+          
         </p>
         <button className="bg-[#FF8F0F] text-white rounded-[15px] py-2 px-6 hover:shadow-2xl cursor-pointer font-medium text-[30px] tablet:text-[24px]">
           View More
